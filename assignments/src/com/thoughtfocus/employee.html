@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <script src="employee.js"></script>
+    <style>
+        body{
+            background-image: url(images/calculator\ img2);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        h1{
+            color: green;
+            padding-left: 60%;
+        }
+        div{
+            padding-left: 60%;
+            padding-top: 4%;
+        }
+        input{
+            width: 60%;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .button1{
+            color: greenyellow;
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .button2{
+            color: rgb(78, 47, 255);
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .button3{
+            color: rgb(245, 14, 233);
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .button4{
+            color: rgb(43, 158, 187);
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .button1,.button2,.button3,.button4{
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1> ThoughtFocus </h1>
+    <div>
+        <input type="text" id="box" placeholder="Please Enter">
+    </div>
+    <div>
+        <button onclick="info()" class=button1 id="info">info</button>
+        <button class=button2 id="intrestrate">+5%</button>
+        <button class=button3 id="salary">Salary</button>
+        <button class=button4 id="Add">Add</button>
+
+    </div>
+    <div>
+        <h3 id="res">Result:</h3>
+    </div>
+
+    
+</body>
+</html>

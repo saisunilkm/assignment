@@ -1,0 +1,66 @@
+header{
+    background-color: lawngreen;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    padding-top: 18px;
+    height: 55px;
+    background-color:white;
+}
+.icon{
+    size: 10px;
+    background-color: aqua;
+    height:100px ;
+    width: 100px;
+    margin-top: 10px;
+    padding-left: 0%;
+
+}
+nav{
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+nav li{
+    float:left;
+    display:block;
+    margin: 0.5px;
+    padding-left: 60px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: #f2f2f2;
+    text-align: center;
+}
+nav a:hover{
+    background: purple;
+    transform: 0.5s;
+    text-transform: uppercase;
+}
+section img{
+    width: 100%;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 35px;
+    margin-top: 0%;
+}
+h3{
+    text-align: center;
+    padding-bottom: 40px;
+}

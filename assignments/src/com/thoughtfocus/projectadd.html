@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddEmployee</title>
+    <link rel="stylesheet" href="projectadd.css">
+    <script src="projectadd.js"></script>
+</head>
+<body>
+    <header>
+        
+        <img src="images/companyicon.jpg" class="icon">
+            <h1>THOUGHTFOCUS</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/">facebook</a></li>
+                <li><a href="https://www.youtube.com/">youtube</a></li>
+                <li><a href="https://twitter.com/login?lang=en">twitter</a></li>
+                <li><a href="https://www.instagram.com/">instagram</a></li>
+            </ul>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="projecthome.html">Home</a></li>
+            <li><a href="#">View</a></li>
+            <li><a href="projectdelete.html">Remove</a></li>
+            <li><a href="projectsearch.html">Search</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Add Employee</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                       <label for="takeinput">EmployeeId</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="EmployeeId" id="employeeid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Salary
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Salary" id="salary">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Department
+                    </td>
+                    <td>
+                        <select id="department">
+                            <option>Select</option>
+                            <option>IT</option>
+                            <option>HR</option>
+                            <option>Admin</option>
+                            <option>Accounts</option>
+                            <option>Manager</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Skill
+                    </td>
+                    <td>
+                        <select id="skill">
+                            <option>Select</option>
+                            <option>Java</option>
+                            <option>HTML</option>
+                            <option>SQL</option>
+                            <option>UI</option>
+                            <option>Angular</option>
+                            <option>FullStack</option>
+                            <option>AI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button"onclick="savedata()">Add</button>
+                    </td>
+                    <td>
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <h3>AllRight &copy;2022</h3>
+    </footer>
+    
+</body>
+</html>

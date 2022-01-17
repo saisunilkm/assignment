@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+ h1{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-style: oblique;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 100%;
+}
+.logo{
+    width: 115px;
+    display: inline;
+    position:absolute;
+}
+.nav-listdiv{
+    padding-left: 60%;
+    display: inline-block;
+    height: 50px;
+
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin: 12px;
+}
+a{
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 40px;
+    font-size: 20px;
+    color:white;
+}
+a:hover{
+    color: yellow;
+    line-height: 2px;
+}
+.imgsection{
+    width: 100%;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    height: 10px;
+    padding: 40px;
+    text-shadow:white;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
